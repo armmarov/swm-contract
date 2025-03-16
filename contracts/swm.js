@@ -214,6 +214,10 @@ function deleteTask(id) {
             }
             saveObj(TASK_LIST, tasks);
         }
+        Chain.payCoin(
+            task.owner,
+            task.fee,
+            'SWM refund check');
         Chain.tlog("SWM_TASK_DELETED", id);
     }
 }
