@@ -1,0 +1,9 @@
+.env
+node_modules
+*.iml
+.idea
+merged-contract.js
+coverage
+.nyc_output
+generated/*.mjs
+generated/*.js
